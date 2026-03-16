@@ -17,7 +17,7 @@ public class Libro {
         System.out.println("el codigo es: "+codigo);
     }
 
-    public String getAutor() {      //expli
+    public String getAutor() {     
         return autor;
     }
 
@@ -29,7 +29,7 @@ public class Libro {
         return titulo;
     }
 
-    public void setAutor(String autor) {  //expli
+    public void setAutor(String autor) {  
         this.autor = autor;
     }
 

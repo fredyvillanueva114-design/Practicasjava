@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Lector extends Persona{
     private String codigoLector;
-    private ArrayList<Libro> librosPrestados; // el ArrayLista sirve para    ex
+    private ArrayList<Libro> librosPrestados; 
 
     public Lector(String codigoLector,int edad,String nombre){
         super(nombre, edad); // es como llamar las cosas de persona osea en este caso el nombre y la edad 
@@ -12,12 +12,12 @@ public class Lector extends Persona{
         librosPrestados = new ArrayList<>();    // ex 
     }
     
-    // agregamos un metodo                     expli
+                    
     public void agregarLibro(Libro libro){
         librosPrestados.add(libro);
     }
 
-    @Override               //ex 
+    @Override              
     public void mostrarInformacion(){
         super.mostrarInformacion();
         System.out.println("Codigo del Lector: " + codigoLector);
