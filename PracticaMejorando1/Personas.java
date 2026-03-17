@@ -1,6 +1,6 @@
 package PracticaMejorando1;
 
-public class Personas {
+public abstract class Personas {
     
     private String nombre;
     private int edad;
